@@ -1,13 +1,41 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>
-            i will...
-        </title>
+        <title>i will...</title>
+        <link rel="icon" type="image/png" href="/assets/meth.png">
     </head>
     <body>
         <h1>Twice! beaten by an objct, twice!</h1>
         <hr>
         <p>Ive only known the taste of victory. But this taste, is this my blood?</p>
+        <table border="1">
+            <tr>
+                <th width="280", align="center">phase 1</th>
+                <th width="280", align="center">phase 2</th>
+            </tr>
+            <tr>
+                <td id="p1" width="280", align="center">BEHOLD! THE POWER OF AN ANGEL</td>
+                <td id="p2" width="280", align="center">ENOUGH!</td>
+            </tr>
+        </table>
+        <br>
+        <script>
+            var phase1 = document.getElementById("p1");
+            var phase2 = document.getElementById("p2");
+
+            var state = 0;
+            function replace() {
+                if (state === 0) {
+                    phase1.innerHTML = "I will cut you down. Break you apart, splay the gore of your profane form across the stars! I will grind you down until the very SPARKS cry for mercy! MY HANDS SHALL RELISH, ENDING YOU. HERE. AND. NOW!";
+                    phase2.innerHTML = "IS THAT ALL YOU GOT??";
+                    state = 1;
+                } else if (state === 1) {
+                    phase1.innerHTML = "BEHOLD! THE POWER OF AN ANGEL";
+                    phase2.innerHTML = "ENOUGH";
+                    state = 0;
+                }
+            }
+        </script>
+        <button onclick="replace()" style="font-size:25px;">object (creature of steel)</button>
     </body>
 </html>
