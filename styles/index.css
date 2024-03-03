@@ -36,8 +36,8 @@
 #dropdown button:hover {
     background-color: #5d5d6d;
 }
-#dropdown:hover #content {
-    display: block;
+#dropdown:not(:hover) #content {
+    display: none;
 }
 #dropdown button:active {
     background-color: #cdcddd;
