@@ -1,0 +1,14 @@
+button {
+    background-color: #4d4d5d;
+    color: rgb(210, 210, 220);
+    border: 2px solid #2d2d2d;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #5d5d6d;
+}
+button:active {
+    background-color: #cdcddd;
+    color: #1f1f1f;
+    border: 2px solid #0d0d1d;
+}

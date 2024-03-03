@@ -6,14 +6,12 @@
 * {
     scrollbar-color: rgb(24, 27, 32) rgb(30, 35, 43);
     scrollbar-width: 2px;
+    font-family: Tektur, Helvetica, sans-serif;
 }
 
 body {
     background-color: rgb(32, 37, 44);
     color: rgb(210, 210, 220);
-    font-family: Tektur, Helvetica, sans-serif;
-
-    
 }
 
 a:link {
